@@ -88,6 +88,23 @@
       "highlights": []
     }
   ],
+  "interests": [
+    {
+      "name": "Egocentric Vision & Human Behavior",
+      "icon": "fa-solid fa-eye",
+      "keywords": ["egocentric action & motion prediction", "gaze-guided reasoning"]
+    },
+    {
+      "name": "Multi-modal LLMs for 3D Reasoning",
+      "icon": "fa-solid fa-brain",
+      "keywords": ["3D-aware vision–language models", "ego-human motion prediction"]
+    },
+    {
+      "name": "Robotics & Autonomous Driving",
+      "icon": "fa-solid fa-robot",
+      "keywords": ["trajectory & social-interaction prediction", "robust off-road perception", "sensor fusion"]
+    }
+  ],
   "awards": [
     {
       "title": "Summa Cum Laude (Highest Honors)",
@@ -108,27 +125,16 @@
       "summary": "Awarded 2019–2022."
     }
   ],
-  "publications": [
+  "languages": [
     {
-      "name": "Ego-human Motion Prediction with 3D-aware LLM",
-      "publisher": "ECCV 2026",
-      "releaseDate": "2026",
-      "url": "",
-      "summary": "Yujin Bae*, Jaewoo Jeong*, Hyeonseong Kim*, Kuk-Jin Yoon (* equal contribution). European Conference on Computer Vision (ECCV), 2026."
+      "language": "Korean",
+      "fluency": "Native",
+      "icon": ""
     },
     {
-      "name": "Gaze-Critic Chain-of-Thought Egocentric Action Prediction",
-      "publisher": "Under review",
-      "releaseDate": "2025",
-      "url": "",
-      "summary": "Minseok Kim*, Jaewoo Jeong*, Yujin Bae*, Sung-Hoon Yoon, Youngho Yoon, Hoyong Kwon, Kuk-Jin Yoon (* equal contribution)."
-    },
-    {
-      "name": "SRT: Spatial Reasoning Trajectory Prediction via Evolving Social Interaction Graphs",
-      "publisher": "Under review",
-      "releaseDate": "2025",
-      "url": "",
-      "summary": "Jaewoo Jeong*, Seonkyu Song*, Hyeonwoo Park, Yujin Bae, Jegyeong Cho, Giwon Lee, Daehee Park, Kuk-Jin Yoon (* equal contribution)."
+      "language": "English",
+      "fluency": "Fluent (TOEIC 960)",
+      "icon": ""
     }
   ],
   "skills": [
@@ -143,32 +149,6 @@
       "level": "",
       "icon": "fa-solid fa-brain",
       "keywords": ["PyTorch", "TensorFlow", "PyBullet"]
-    }
-  ],
-  "languages": [
-    {
-      "language": "Korean",
-      "fluency": "Native",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent (TOEIC 960)",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Research Interests",
-      "icon": "fa-solid fa-robot",
-      "keywords": [
-        "Egocentric Vision",
-        "Human Motion Prediction",
-        "Trajectory Prediction",
-        "Multi-modal LLMs",
-        "Robotics",
-        "Autonomous Driving"
-      ]
     }
   ]
 }
