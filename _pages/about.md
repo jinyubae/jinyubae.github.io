@@ -29,7 +29,7 @@ latest_posts:
 
 Hi! I am **Yujin Bae**, an M.S. student in the [Robotics Program](https://www.kaist.ac.kr/en/) at **KAIST**, where I am advised by Prof. **Kuk-Jin Yoon** in the Visual Intelligence Lab.
 
-My research lies at the intersection of **computer vision** and **robotics**, building models that perceive and anticipate human behavior. I work across **egocentric vision**, **human motion and trajectory prediction**, and **3D-aware multi-modal large language models** — with the goal of giving robots and autonomous vehicles a human-aware understanding of dynamic environments so they can act safely and reliably alongside people.
+I work on **multi-modal reasoning** for robots — asking how integrating vision, 3D structure, and language can let a robot truly *understand* the world it acts in, interpreting situations it was never explicitly trained on rather than just recognizing objects. I pursue this through **multi-modal human understanding**: **egocentric vision**, **human motion and trajectory prediction**, and **3D-aware multi-modal LLMs**. People are the most dynamic and safety-critical part of any real environment, so anticipating human behavior from a first-person view demands exactly the integrated reasoning that general embodied intelligence needs. I see human understanding as a concrete path from today's perception models to robots that reason about — and reliably operate in — the real world.
 
 Currently, I am working on 3D-aware LLMs for ego-human motion prediction and, as a project member on a Hanwha Aerospace–funded project, on core perception technology for **autonomous driving in unstructured off-road environments** (with a real-world deployment target).
 

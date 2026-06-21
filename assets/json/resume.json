@@ -5,7 +5,7 @@
     "image": "",
     "email": "yujinbae@kaist.ac.kr",
     "url": "https://jinyubae.github.io",
-    "summary": "I am an M.S. student in the Robotics Program at KAIST, working at the intersection of computer vision and robotics. My research builds models that perceive and anticipate human behavior — across egocentric vision, human motion and trajectory prediction, and 3D-aware multi-modal LLMs. My goal is to give robots and autonomous vehicles a human-aware understanding of dynamic environments so they can act safely and reliably alongside people.",
+    "summary": "I am an M.S. student in the Robotics Program at KAIST, asking how multi-modal reasoning can let robots truly understand the world they act in — integrating vision, 3D structure, and language to interpret situations they were never explicitly trained on, rather than just recognizing objects. I pursue this through multi-modal human understanding: egocentric vision, human motion and trajectory prediction, and 3D-aware multi-modal LLMs. People are the most dynamic and safety-critical part of any real environment, so anticipating human behavior from a first-person view demands exactly the integrated reasoning that general embodied intelligence needs. I see human understanding as a concrete path from today's perception models to robots that reason about — and reliably operate in — the real world.",
     "location": {
       "city": "Daejeon",
       "countryCode": "KR",
