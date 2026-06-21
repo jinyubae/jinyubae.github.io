@@ -58,14 +58,15 @@
   "work": [
     {
       "name": "Visual Intelligence Lab, KAIST",
-      "position": "Graduate Research Assistant",
+      "position": "Project Member",
       "location": "Daejeon, South Korea",
       "startDate": "2025-03-01",
       "endDate": "",
-      "summary": "Research project: \"Development of Data Augmentation and Sensor Fusion Technologies for Robust Autonomous Driving\" (funded by Hanwha Aerospace).",
+      "summary": "\"Core Technology Development for Autonomous Driving in Unstructured Off-Road Environments,\" funded by Hanwha Aerospace. Real-world deployment target in unstructured off-road terrain.",
       "highlights": [
-        "Robust perception for autonomous driving",
-        "Sensor fusion and data augmentation"
+        "Core perception technology for autonomous driving in unstructured off-road environments",
+        "Data augmentation and sensor fusion for robust perception",
+        "Real-world deployment target in off-road terrain"
       ]
     },
     {
@@ -110,10 +111,10 @@
   "publications": [
     {
       "name": "Ego-human Motion Prediction with 3D-aware LLM",
-      "publisher": "Under review",
-      "releaseDate": "2025",
+      "publisher": "ECCV 2026",
+      "releaseDate": "2026",
       "url": "",
-      "summary": "Yujin Bae*, Jaewoo Jeong*, Hyeonseong Kim*, Kuk-Jin Yoon (* equal contribution)."
+      "summary": "Yujin Bae*, Jaewoo Jeong*, Hyeonseong Kim*, Kuk-Jin Yoon (* equal contribution). European Conference on Computer Vision (ECCV), 2026."
     },
     {
       "name": "Gaze-Critic Chain-of-Thought Egocentric Action Prediction",

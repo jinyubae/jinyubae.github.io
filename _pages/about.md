@@ -31,7 +31,7 @@ Hi! I am **Yujin Bae**, an M.S. student in the [Robotics Program](https://www.ka
 
 My research lies at the intersection of **computer vision** and **robotics**, building models that perceive and anticipate human behavior. I work across **egocentric vision**, **human motion and trajectory prediction**, and **3D-aware multi-modal large language models** — with the goal of giving robots and autonomous vehicles a human-aware understanding of dynamic environments so they can act safely and reliably alongside people.
 
-Currently, I am working on 3D-aware LLMs for ego-human motion prediction and on robust perception and sensor fusion for autonomous driving.
+Currently, I am working on 3D-aware LLMs for ego-human motion prediction and, as a project member on a Hanwha Aerospace–funded project, on core perception technology for **autonomous driving in unstructured off-road environments** (with a real-world deployment target).
 
 Before joining KAIST, I received my B.S. in Cyber Security from **Ewha Womans University** (Highest Honors, ranked 1st in class), and spent a semester as an exchange student at the **University of Vermont**.
 
