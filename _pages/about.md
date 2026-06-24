@@ -2,19 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: M.S. Student, <a href="https://www.kaist.ac.kr/en/">KAIST</a> Robotics Program · Advised by Prof. Kuk-Jin Yoon
+subtitle:
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_image_1.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Robotics Program, KAIST</p>
-    <p>N7-4 (ME Bldg) #5124, Daejeon, South Korea</p>
-    <p>yujinbae [at] kaist.ac.kr</p>
+    <p style="text-align: center;">me and my sister 🐠</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -27,12 +25,18 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I am **Yujin Bae**, an M.S. student in the [Robotics Program](https://www.kaist.ac.kr/en/) at **KAIST**, where I am advised by Prof. **Kuk-Jin Yoon** in the Visual Intelligence Lab.
+Hi! I am **Yujin Bae**, a second-year M.S. student at **KAIST**, where I am advised by Prof. **Kuk-Jin Yoon** in the [Visual Intelligence Lab](https://vi.kaist.ac.kr/).
 
-I work on **multi-modal reasoning** for robots — asking how integrating vision, 3D structure, and language can let a robot truly *understand* the world it acts in, interpreting situations it was never explicitly trained on rather than just recognizing objects. I pursue this through **multi-modal human understanding**: **egocentric vision**, **human motion and trajectory prediction**, and **3D-aware multi-modal LLMs**. People are the most dynamic and safety-critical part of any real environment, so anticipating human behavior from a first-person view demands exactly the integrated reasoning that general embodied intelligence needs. I see human understanding as a concrete path from today's perception models to robots that reason about — and reliably operate in — the real world.
+I am interested in building **multimodal large language models that genuinely understand the 3D world**. My current work centers on **human action understanding**, leveraging 3D scene representations to predict and reason about human motion. Building on this, my broader goal is to strengthen **robot intelligence with language and multimodality**, enabling robots to act reliably and intelligently in the human-centered spaces we live in.
 
-Currently, I am working on 3D-aware LLMs for ego-human motion prediction and, as a project member on a Hanwha Aerospace–funded project, on core perception technology for **autonomous driving in unstructured off-road environments** (with a real-world deployment target).
+Concretely, my interests span:
 
-Before joining KAIST, I received my B.S. in Cyber Security from **Ewha Womans University** (Highest Honors, ranked 1st in class), and spent a semester as an exchange student at the **University of Vermont**.
+- **Multi-modal LLMs** — grounding language models in the 3D world
+- **Egocentric vision** — reasoning about the world from a first-person view
+- **Human action anticipation** — predicting what a person will do next
+- **Human–robot interaction** — letting robots assist people proactively
 
-Feel free to reach out via [email](mailto:yujinbae@kaist.ac.kr)!
+
+Before joining KAIST, I received my B.S. at **Ewha Womans University** (ranked 1st in class!), and spent a semester as an exchange student at the **University of Vermont**.
+
+Feel free to reach out via [yujinbae@kaist.ac.kr](mailto:yujinbae@kaist.ac.kr)!

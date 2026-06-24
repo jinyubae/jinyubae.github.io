@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started my M.S. in the Robotics Program at **KAIST**, advised by Prof. Kuk-Jin Yoon. :rocket:
+Started my M.S. at **KAIST**, advised by Prof. Kuk-Jin Yoon. :rocket:

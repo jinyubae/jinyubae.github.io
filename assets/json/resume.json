@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Yujin Bae",
-    "label": "M.S. Student in Robotics, KAIST",
+    "label": "M.S. Student, KAIST",
     "image": "",
     "email": "yujinbae@kaist.ac.kr",
     "url": "https://jinyubae.github.io",
-    "summary": "I am an M.S. student in the Robotics Program at KAIST, asking how multi-modal reasoning can let robots truly understand the world they act in — integrating vision, 3D structure, and language to interpret situations they were never explicitly trained on, rather than just recognizing objects. I pursue this through multi-modal human understanding: egocentric vision, human motion and trajectory prediction, and 3D-aware multi-modal LLMs. People are the most dynamic and safety-critical part of any real environment, so anticipating human behavior from a first-person view demands exactly the integrated reasoning that general embodied intelligence needs. I see human understanding as a concrete path from today's perception models to robots that reason about — and reliably operate in — the real world.",
+    "summary": "I am interested in building multimodal large language models that genuinely understand the 3D world. My current work centers on human action understanding, leveraging 3D scene representations to predict and reason about human motion. Building on this, my broader goal is to strengthen robot intelligence with language and multimodality, enabling robots to act reliably and intelligently in the human-centered spaces we live in. My research interests span multi-modal LLMs, egocentric vision, human action anticipation, and human–robot interaction.",
     "location": {
       "city": "Daejeon",
       "countryCode": "KR",
@@ -24,7 +24,7 @@
       "institution": "Korea Advanced Institute of Science and Technology (KAIST)",
       "location": "Daejeon, South Korea",
       "url": "https://www.kaist.ac.kr/en/",
-      "area": "Robotics Program",
+      "area": "The Robotics Program",
       "studyType": "M.S.",
       "startDate": "2025-03-01",
       "endDate": "",
@@ -35,7 +35,7 @@
     {
       "institution": "Ewha Womans University",
       "location": "Seoul, South Korea",
-      "area": "Cyber Security",
+      "area": "Department of Software",
       "studyType": "B.S.",
       "startDate": "2019-03-01",
       "endDate": "2025-02-01",
@@ -90,19 +90,24 @@
   ],
   "interests": [
     {
-      "name": "Egocentric Vision & Human Behavior",
-      "icon": "fa-solid fa-eye",
-      "keywords": ["egocentric action & motion prediction", "gaze-guided reasoning"]
-    },
-    {
-      "name": "Multi-modal LLMs for 3D Reasoning",
+      "name": "Multi-modal LLMs",
       "icon": "fa-solid fa-brain",
-      "keywords": ["3D-aware vision–language models", "ego-human motion prediction"]
+      "keywords": ["grounding language models in the 3D world", "3D-aware vision–language models"]
     },
     {
-      "name": "Robotics & Autonomous Driving",
+      "name": "Egocentric Vision",
+      "icon": "fa-solid fa-eye",
+      "keywords": ["reasoning about the world from a first-person view"]
+    },
+    {
+      "name": "Human Action Anticipation",
+      "icon": "fa-solid fa-person-walking",
+      "keywords": ["predicting what a person will do next", "human motion prediction"]
+    },
+    {
+      "name": "Human–Robot Interaction",
       "icon": "fa-solid fa-robot",
-      "keywords": ["trajectory & social-interaction prediction", "robust off-road perception", "sensor fusion"]
+      "keywords": ["letting robots assist people proactively"]
     }
   ],
   "awards": [
@@ -140,13 +145,11 @@
   "skills": [
     {
       "name": "Programming & Tools",
-      "level": "",
       "icon": "fa-solid fa-code",
       "keywords": ["Python", "Git", "Bash", "LaTeX"]
     },
     {
       "name": "ML / Scientific Computing",
-      "level": "",
       "icon": "fa-solid fa-brain",
       "keywords": ["PyTorch", "TensorFlow", "PyBullet"]
     }
