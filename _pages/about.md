@@ -27,16 +27,14 @@ latest_posts:
 
 Hi! I am **Yujin Bae**, a second-year M.S. student at **KAIST**, where I am advised by Prof. **Kuk-Jin Yoon** in the [Visual Intelligence Lab](https://vi.kaist.ac.kr/).
 
-I am interested in building **multimodal large language models that genuinely understand the 3D world**. My current work centers on **human action understanding**, leveraging 3D scene representations to predict and reason about human motion. Building on this, my broader goal is to strengthen **robot intelligence with language and multimodality**, enabling robots to act reliably and intelligently in the human-centered spaces we live in.
+My long-term goal is to build **proactive assistive AI** for embodied settings such as **smart glasses and robotic hands**. Toward this end, I focus on multimodal understanding of **how humans interact with their surroundings**, and I aim to extend this understanding to robot learning as a next step.
 
 Concretely, my interests span:
 
-- **Multi-modal LLMs** — grounding language models in the 3D world
-- **Egocentric vision** — reasoning about the world from a first-person view
-- **Human action anticipation** — predicting what a person will do next
-- **Human–robot interaction** — letting robots assist people proactively
+- **Anticipation** — forecasting human motion and action semantics from egocentric video with multimodal LLMs
+- **Understanding** — efficient egocentric video understanding guided by human behavior
+- **Transfer** — learning dexterous manipulation policies from human video
 
-
-Before joining KAIST, I received my B.S. at **Ewha Womans University** (ranked 1st in class!), and spent a semester as an exchange student at the **University of Vermont**.
+Before joining KAIST, I received my B.S. at **Ewha Womans University** (ranked 1st in major!), and spent a semester as an exchange student at the **University of Vermont**.
 
 Feel free to reach out via [yujinbae@kaist.ac.kr](mailto:yujinbae@kaist.ac.kr)!

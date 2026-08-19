@@ -15,6 +15,17 @@ layout: default
   </header>
 
   <article>
+    <style>
+      /* The intro flows beside the floated 30%-wide profile photo — smaller type fits
+         more words per line and keeps the wrapping from looking clipped. */
+      .post > article > .clearfix {
+        font-size: 0.9rem;
+        line-height: 1.65;
+      }
+      .post > article > .clearfix li {
+        font-size: 0.9rem;
+      }
+    </style>
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
         {% if page.profile.image %}
@@ -68,6 +79,14 @@ layout: default
         }
       </style>
       {% include selected_papers.liquid %}
+      <script>
+        // The gem's bib layout renders `website={...}` as a plain "Website" button with no
+        // class to hook onto, so add the icon here rather than shadowing its 395-line layout.
+        document.querySelectorAll('.publications .links a.btn').forEach((a) => {
+          if (a.textContent.trim() !== 'Website') return;
+          a.innerHTML = '<i class="fa-solid fa-globe"></i> Website';
+        });
+      </script>
     {% endif %}
 
     <!-- Social -->

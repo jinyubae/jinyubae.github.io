@@ -1,8 +1,10 @@
 {% comment %}
   Custom override of al_folio_cv's cv/render.liquid.
   Reordered + renamed JSONResume sections for Yujin Bae's CV:
-    Contact Information → Professional Summary → Education → Honors and Awards
-    → Research Interests → Research Experience → Languages → Skills
+    Contact Information → Education → Honors and Awards → Research Interests
+    → Research Projects → Research Experience → Languages → Skills
+  Research Projects renders resume.json's `projects` through cv/experience.liquid
+  (rather than cv/projects.liquid) so each project keeps its date badge.
   Reuses the gem's sub-includes (cv/education.liquid, cv/awards.liquid, ...).
   The RenderCV path and wrapper are kept identical to the upstream template.
 {% endcomment %}
@@ -32,6 +34,31 @@
   </header>
 
   <article>
+    <style>
+      /* Tighten the CV's type scale — the theme's defaults run large for a dense CV. */
+      .cv {
+        font-size: 0.875rem;
+      }
+      .cv .card-title {
+        font-size: 1.1rem;
+      }
+      .cv h6.title {
+        font-size: 0.95rem;
+      }
+      /* The gem's education/experience templates set font-size inline on these
+         sub-heading h6s, so overriding them requires !important. */
+      .cv h6:not(.title) {
+        font-size: 0.85rem !important;
+      }
+      .cv .items li,
+      .cv p,
+      .cv td {
+        font-size: 0.85rem;
+      }
+      .cv .badge {
+        font-size: 0.7rem;
+      }
+    </style>
     <div class="cv">
       {% comment %} Determine which CV format to render {% endcomment %}
       {% assign render_rendercv = false %}
@@ -87,6 +114,12 @@
                   </td>
                 </tr>
               {% endif %}
+              {% if basics.advisor %}
+                <tr>
+                  <td class="p-1 pr-2 font-weight-bold"><b>Advisor</b></td>
+                  <td class="p-1 pl-2 font-weight-light">{{ basics.advisor }}</td>
+                </tr>
+              {% endif %}
               {% if basics.url %}
                 <tr>
                   <td class="p-1 pr-2 font-weight-bold"><b>Website</b></td>
@@ -99,13 +132,10 @@
           </div>
         {% endif %}
 
-        <!-- Professional Summary -->
-        {% if site.data.resume.basics.summary %}
-          <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Professional Summary</h3>
-            <p>{{ site.data.resume.basics.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
-          </div>
-        {% endif %}
+        {% comment %}
+          resume.json still carries basics.summary (standard JSONResume, and it mirrors the
+          homepage intro), but it is deliberately not rendered here to avoid the duplication.
+        {% endcomment %}
 
         <!-- Education -->
         {% if site.data.resume.education.size > 0 %}
@@ -139,6 +169,18 @@
             <div>
               {% assign entries = site.data.resume.interests %}
               {% include cv/interests.liquid %}
+            </div>
+          </div>
+        {% endif %}
+
+        <!-- Research Projects -->
+        {% if site.data.resume.projects.size > 0 %}
+          <a class="anchor" id="projects"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Research Projects</h3>
+            <div>
+              {% assign entries = site.data.resume.projects %}
+              {% include cv/experience.liquid %}
             </div>
           </div>
         {% endif %}

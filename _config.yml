@@ -10,13 +10,14 @@ contact_note: >
   Feel free to reach out via email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Yujin Bae — M.S. student at KAIST, advised by Prof. Kuk-Jin Yoon.
-  Research on egocentric vision, human motion prediction, and multi-modal large language models
-  for robotics and autonomous driving.
+  Building proactive assistive AI for embodied settings: egocentric video understanding,
+  human motion and action anticipation with multi-modal LLMs, and dexterous manipulation
+  learned from human video.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: Yujin Bae, KAIST, robotics, egocentric vision, human motion prediction, trajectory prediction, multi-modal LLM, autonomous driving, computer vision # add your own keywords or leave empty
+keywords: Yujin Bae, KAIST, robotics, assistive AI, egocentric vision, egocentric video understanding, human motion prediction, action anticipation, multi-modal LLM, dexterous manipulation, robot learning, computer vision # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
