@@ -101,9 +101,11 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+# The site-wide (default for all links) Open Graph preview image. Must be an absolute
+# URL — the theme emits this value verbatim, and scrapers reject relative paths.
+og_image: https://jinyubae.github.io/assets/img/profile_image_1.png
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
