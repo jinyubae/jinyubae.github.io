@@ -77,8 +77,24 @@ layout: default
           font-weight: bold;
           text-decoration: underline;
         }
+        /* Under-review entries sit in their own list below the published ones,
+           set apart by extra space and a thin divider. */
+        .publications.under-review {
+          margin-top: 1.5rem;
+          padding-top: 1.5rem;
+          border-top: 1px solid var(--global-divider-color);
+        }
       </style>
-      {% include selected_papers.liquid %}
+      {% comment %}
+        Replaces selected_papers.liquid: published papers first, then under-review
+        manuscripts (bibtex type @unpublished) as a separate list.
+      {% endcomment %}
+      <div class="publications">
+        {% bibliography --group_by none --query !@unpublished[selected=true] %}
+      </div>
+      <div class="publications under-review">
+        {% bibliography --group_by none --query @unpublished[selected=true] %}
+      </div>
       <script>
         // The gem's bib layout renders `website={...}` as a plain "Website" button with no
         // class to hook onto, so add the icon here rather than shadowing its 395-line layout.
