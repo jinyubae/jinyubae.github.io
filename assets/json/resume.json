@@ -57,7 +57,9 @@
       "name": "Funded by Korea Creative Content Agency (KOCCA), Ministry of Culture, Sports and Tourism",
       "startDate": "2026-10-01",
       "endDate": "Present",
-      "highlights": []
+      "highlights": [
+        "Developing generative video outpainting guided by multimodal context analysis to restore the spatial and contextual continuity of archive videos"
+      ]
     },
     {
       "position": "Full-Body Motion Prediction from Sparse Observations via Expert Distillation",
@@ -65,7 +67,7 @@
       "startDate": "2026-08-01",
       "endDate": "Present",
       "highlights": [
-        "Developing a VLM coupled with a flow-based motion expert to jointly predict future full-body motion and corresponding motion descriptions from egocentric video and 6D head pose available from wearable glasses",
+        "Developing a VLM coupled with a flow-based motion expert to jointly predict future full-body motion from egocentric video and 6D head pose available from wearable glasses",
         "Investigating on-policy distillation from a teacher model with access to full-body observations to effectively train the sparse-observation student model"
       ]
     },
