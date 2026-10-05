@@ -31,8 +31,8 @@ My long-term goal is to build **proactive assistive AI** for embodied settings s
 
 Concretely, my interests span:
 
-- **Anticipation** — forecasting human motion and action semantics from egocentric video with multimodal LLMs
-- **Understanding** — efficient egocentric video understanding guided by human behavior
+- **Anticipation** — forecasting human motion and action semantics from egocentric video and sparse wearable sensors
+- **Understanding** — efficient egocentric video understanding with multimodal LLMs, guided by human behavior
 - **Transfer** — learning dexterous manipulation policies from human video
 
 Before joining KAIST, I received my B.S. at **Ewha Womans University** (ranked 1st in major!), and spent a semester as an exchange student at the **University of Vermont**.

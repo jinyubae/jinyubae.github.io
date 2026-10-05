@@ -53,12 +53,20 @@
   ],
   "projects": [
     {
+      "position": "Development of Outpainting AI and Spatial Expansion Technology for Utilizing Archive Video Contents",
+      "name": "Funded by Korea Creative Content Agency (KOCCA), Ministry of Culture, Sports and Tourism",
+      "startDate": "2026-10-01",
+      "endDate": "Present",
+      "highlights": []
+    },
+    {
       "position": "Full-Body Motion Prediction from Sparse Observations via Expert Distillation",
       "name": "Visual Intelligence Lab, KAIST",
       "startDate": "2026-08-01",
       "endDate": "Present",
       "highlights": [
-        "Developing a lightweight model that forecasts future motion from sparse observations via on-policy distillation, jointly decoding action intent as text to disambiguate multimodal futures"
+        "Developing a VLM coupled with a flow-based motion expert to jointly predict future full-body motion and corresponding motion descriptions from egocentric video and 6D head pose available from wearable glasses",
+        "Investigating on-policy distillation from a teacher model with access to full-body observations to effectively train the sparse-observation student model"
       ]
     },
     {
@@ -96,12 +104,12 @@
     {
       "name": "Anticipation",
       "icon": "fa-solid fa-forward",
-      "keywords": ["forecasting human motion and action semantics from egocentric video with multimodal LLMs"]
+      "keywords": ["forecasting human motion and action semantics from egocentric video and sparse wearable sensors"]
     },
     {
       "name": "Understanding",
       "icon": "fa-solid fa-eye",
-      "keywords": ["efficient egocentric video understanding guided by human behavior"]
+      "keywords": ["efficient egocentric video understanding with multimodal LLMs, guided by human behavior"]
     },
     {
       "name": "Transfer",
