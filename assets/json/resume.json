@@ -62,16 +62,6 @@
       ]
     },
     {
-      "position": "Full-Body Motion Prediction from Sparse Observations via Expert Distillation",
-      "name": "Visual Intelligence Lab, KAIST",
-      "startDate": "2026-08-01",
-      "endDate": "Present",
-      "highlights": [
-        "Developing a VLM coupled with a flow-based motion expert to jointly predict future full-body motion from egocentric video and 6D head pose available from wearable glasses",
-        "Investigating on-policy distillation from a teacher model with access to full-body observations to effectively train the sparse-observation student model"
-      ]
-    },
-    {
       "position": "Development of Core Technologies for Autonomous Driving in Unstructured Off-Road Environments",
       "name": "Funded by Hanwha Aerospace",
       "startDate": "2025-03-01",
@@ -90,7 +80,8 @@
       "endDate": "2024-07-01",
       "summary": "Advisor: Prof. Sang Ho Yoon",
       "highlights": [
-        "Contributed to a hand pressure estimation algorithm augmenting forearm sEMG with 3D hand posture, surveying existing 3D hand pose estimation methods and integrating them into the end-to-end pipeline"
+        "Contributed to a hand pressure estimation algorithm augmenting forearm sEMG with 3D hand posture",
+        "Surveyed existing 3D hand pose estimation methods and integrated them into the end-to-end pipeline"
       ]
     },
     {
@@ -99,7 +90,10 @@
       "startDate": "2022-01-01",
       "endDate": "2022-02-01",
       "summary": "Advisor: Prof. Beomjoon Kim",
-      "highlights": []
+      "highlights": [
+        "Contributed to research on reducing search costs in continuous POMDPs for robotic manipulation by leveraging previous tree-search results to guide subsequent search",
+        "Conducted literature review and assisted in setting up PyBullet simulation environments for experiments"
+      ]
     }
   ],
   "interests": [
@@ -158,9 +152,14 @@
       "keywords": ["Python", "C++"]
     },
     {
-      "name": "Frameworks",
+      "name": "Frameworks / Libraries",
       "icon": "fa-solid fa-layer-group",
-      "keywords": ["PyTorch", "ROS"]
+      "keywords": ["PyTorch", "OpenCV", "Hugging Face"]
+    },
+    {
+      "name": "Tools / Systems",
+      "icon": "fa-solid fa-screwdriver-wrench",
+      "keywords": ["ROS", "Git", "Linux"]
     }
   ]
 }
